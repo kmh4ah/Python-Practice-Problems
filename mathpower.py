@@ -4,7 +4,7 @@ print("***This program can tell the power of an entered number***")
 base_num = int(input("Enter a base number: "))
 power_num = int(input("Enter a power number: "))
 def power(base_value, power_value):
-	result = base_num ** power_num   #remember we are trying to do some calculation here #based on the numbers enterd by the user 
+	result = base_num ** power_num   
 	return result
 result = power(base_num,power_num)
 print(result)
